@@ -15,5 +15,6 @@ tests 't/*.t t/*/*.t t/*/*/*.t t/*/*/*/*.t t/*/*/*/*/*.t';
 author_tests 'xt';
 auto_set_repository;
 auto_include;
+jsonmeta;
 WriteAll;
 
