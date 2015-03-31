@@ -7,10 +7,13 @@ requires 'Plack';
 requires 'Digest::MD5';
 requires 'Digest::HMAC_SHA1';
 
+requires 'Test::More', 0.88;
+requires 'HTTP::Request::Common', 0;
+requires 'LWP::UserAgent', 0;
+
 tests 't/*.t t/*/*.t t/*/*/*.t t/*/*/*/*.t t/*/*/*/*/*.t';
 author_tests 'xt';
 auto_set_repository;
-build_requires 'Test::More', 0.88;
 auto_include;
 WriteAll;
 
